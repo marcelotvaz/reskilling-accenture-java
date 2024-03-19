@@ -134,7 +134,7 @@ public class Program {
 	                                System.out.print("Digite o CNPJ da empresa (Sem pontuação): ");
 	                                cnpj = sc.nextLine();
 	                                if (cnpj.length() != 14) {
-	                                    System.out.println("CPF inválido. O CPF deve ter exatamente 11 dígitos.");
+	                                    System.out.println("CNPJ inválido. O CNPJ deve ter exatamente 14 dígitos.");
 	                                }
 	                            } while (cnpj.length() != 14);
 	                            
